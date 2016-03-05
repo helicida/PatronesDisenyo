@@ -9,7 +9,6 @@ public class CaminarNormal implements InterficieCaminable{
 
     @Override
     public String caminar() {
-
         return  "Camino per sobre la taula";
     }
 }

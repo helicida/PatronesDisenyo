@@ -9,7 +9,6 @@ public class CaminarDuesPotes implements InterficieCaminable {
 
     @Override
     public String caminar() {
-
         return "MIRA, camino amb dues poteeees ^^";
     }
 }

@@ -7,9 +7,12 @@ import Strategy.InterficieMiolable;
  */
 public class SenseMiol implements InterficieMiolable {
 
+    // Constructor
     public void SenseMiol(){
 
     }
+
+    // Metodes
 
     @Override
     public String miau(){

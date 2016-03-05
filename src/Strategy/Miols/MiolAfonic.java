@@ -7,9 +7,12 @@ import Strategy.InterficieMiolable;
  */
 public class MiolAfonic implements InterficieMiolable{
 
+    // Constructor
     public void MiolAfonic(){
 
     }
+
+    // Metodes
 
     @Override
     public String miau(){

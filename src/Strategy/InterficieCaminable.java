@@ -5,6 +5,5 @@ package Strategy;
  */
 public interface InterficieCaminable {
 
-    public String caminar();
-
+    String caminar();
 }

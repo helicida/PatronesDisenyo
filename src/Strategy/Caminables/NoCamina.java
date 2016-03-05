@@ -9,7 +9,6 @@ public class NoCamina implements InterficieCaminable{
 
     @Override
     public String caminar() {
-
         return "No puc caminar :'(";
     }
 

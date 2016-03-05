@@ -7,9 +7,12 @@ import Strategy.InterficieMiolable;
  */
 public class MiolNormal implements InterficieMiolable {
 
+    // Constructor
     public void MiolNormal(){
 
     }
+
+    // Metodes
 
     @Override
     public String miau(){

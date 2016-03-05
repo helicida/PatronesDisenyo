@@ -5,6 +5,5 @@ package Strategy;
  */
 public interface InterficieMiolable{
 
-    public String miau();
-
+    String miau();
 }
