@@ -1,15 +1,17 @@
-package Strategy;
+package Strategy.Gat;
 
-import Strategy.Caminables.CaminarDuesPotes;
-import Strategy.Caminables.CaminarNormal;
-import Strategy.Caminables.NoCamina;
-import Strategy.Miols.MiolAfonic;
-import Strategy.Miols.MiolNormal;
-import Strategy.Miols.MiolRobotic;
-import Strategy.Miols.SenseMiol;
+import Strategy.Gat.Caminables.CaminarDuesPotes;
+import Strategy.Gat.Caminables.CaminarNormal;
+import Strategy.Gat.Caminables.NoCamina;
+import Strategy.Gat.Gats.British;
+import Strategy.Gat.Gats.Persa;
+import Strategy.Gat.Gats.Robotic;
+import Strategy.Gat.Miols.MiolAfonic;
+import Strategy.Gat.Miols.MiolNormal;
+import Strategy.Gat.Miols.MiolRobotic;
 
 /**
- * Created by sergi on 5/03/16.
+ * Created by 46465442z on 08/03/16.
  */
 public class ProbaGat {
 
@@ -21,7 +23,7 @@ public class ProbaGat {
 
         System.out.println("\nPersa\n-----------");
 
-        Gat gatPersa = new Gat();                   // Instanciem el objecte gat
+        Persa gatPersa = new Persa();                   // Instanciem el objecte gat
         gatPersa.setMiol(new MiolNormal());         // Asignem el miol
         gatPersa.setCaminar(new CaminarNormal());   // Asignem la forma de caminar
 
@@ -34,7 +36,7 @@ public class ProbaGat {
 
         System.out.println("\nBritish\n-----------");
 
-        Gat gatBritish = new Gat();                     // Instanciem el objecte gat
+        British gatBritish = new British();                     // Instanciem el objecte gat
         gatBritish.setMiol(new MiolAfonic());           // Asignem el miol
         gatBritish.setCaminar(new CaminarDuesPotes());  // Asignem la forma de caminar
 
@@ -47,7 +49,7 @@ public class ProbaGat {
 
         System.out.println("\nGats robotic\n-----------");
 
-        Gat gatRobotic = new Gat();             // Instanciem el objecte gat
+        Robotic gatRobotic = new Robotic();             // Instanciem el objecte gat
         gatRobotic.setMiol(new MiolRobotic());  // Asignem el miol
         gatRobotic.setCaminar(new NoCamina());  // Asignem la forma de caminar
 

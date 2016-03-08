@@ -1,4 +1,5 @@
-package Strategy;
+package Strategy.Gat;
+
 
 /**
  * Created by 46465442z on 01/03/16.
