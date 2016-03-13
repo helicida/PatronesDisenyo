@@ -52,7 +52,7 @@ public class TiempoBackend {
         usuarios.add(usuario);
     }
 
-    // Getters (Comprobaremos primero si el usuario está suscrito al hilo, si no lo està devolveremos -999
+    // Getters 
 
     public ArrayList<Suscriptor> getUsuarios() {
         return usuarios;
