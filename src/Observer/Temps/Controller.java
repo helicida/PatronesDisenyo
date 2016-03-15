@@ -34,3 +34,8 @@ public class Controller {
         canal1.nuevoReporte(0.1, 0.2, 0.3);
     }
 }
+
+/* OBSERVER PATTERN
+ ----------------------------
+ Ventajas -> Notificaciones a los suscriptores
+ Desventajas -> Imposible añadir nuevas funcionalidades sin actualizar cliente y backend */
