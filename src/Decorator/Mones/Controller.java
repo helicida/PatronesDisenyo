@@ -1,4 +1,4 @@
-package Decorator.ProximoEjemplo;
+package Decorator.Mones;
 
 /**
  * Created by 46465442z on 15/03/16.

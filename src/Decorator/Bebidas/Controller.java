@@ -39,9 +39,8 @@ public class Controller {
            Cafe, al ser una interficie, no se puede implementar e instanciar en si mismo
            Lo instanciamos como un cafe básico, es decir solo y le vamos añadiendo ingredientes
            pasandole al cafe ya construido como parametro para no perder los ingredientes ya añadidos
-        */
 
-        /* Desventajas
+        Desventajas
         ----------------
         Java no dispone de heréncia multiple. Si queremos aplicar un ingrediente a otro tipo de bebida
         tendremos que redefinirlo como complemento de la interficie de esa bebida
