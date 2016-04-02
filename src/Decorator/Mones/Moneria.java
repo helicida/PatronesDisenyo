@@ -2,15 +2,15 @@ package Decorator.Mones;
 
 public class Moneria {
 
-	public Mona crearMona(String type) {
+	public Mona crearMona(String tipoMona) {
 
 		Mona mona = null;
 
-		if (type.equals("tradicional")) {
+		if (tipoMona.equals("tradicional")) {
 			mona = new MonaOus();
-		} else if (type.equals("pokemon")) {
+		} else if (tipoMona.equals("pokemon")) {
 			mona = new MonaPokemon();
-		} else if (type.equals("xocolata")) {
+		} else if (tipoMona.equals("xocolata")) {
 			mona = new MonaXocolata();
 		}
 
