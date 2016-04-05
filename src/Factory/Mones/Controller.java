@@ -1,4 +1,4 @@
-package Decorator.Mones;
+package Factory.Mones;
 
 /**
  * Created by 46465442z on 15/03/16.

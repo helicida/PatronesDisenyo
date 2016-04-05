@@ -1,4 +1,4 @@
-package Decorator.Mones;
+package Factory.Mones;
 
 public class MonaXocolata extends Mona {
 
